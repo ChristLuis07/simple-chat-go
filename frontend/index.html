@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold text-center mb-4">Simple Chat</h2>
+        <input id="username" type="text" placeholder="Enter your name" class="w-full p-2 mb-2 border rounded-md focus:ring focus:ring-blue-300" required>
+        <div id="chat-box" class="h-64 overflow-y-auto border p-3 mb-2 bg-gray-50 rounded-md"></div>
+        <div class="flex space-x-2">
+            <input id="message" type="text" placeholder="Type a message..." class="flex-1 p-2 border rounded-md focus:ring focus:ring-blue-300">
+            <button onclick="sendMessage()" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Send</button>
+        </div>
+    </div>
+</body>
+</html>
