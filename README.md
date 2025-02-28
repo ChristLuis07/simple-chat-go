@@ -24,8 +24,8 @@ Simple Chat Application adalah aplikasi web yang memungkinkan dua atau lebih pen
 ## How to Run
 1. Clone repo ini  
    ```sh
-   git clone https://github.com/yourrepo/simple-chat.git
-   cd simple-chat
+   git clone https://github.com/ChristLuis07/simple-chat-go.git
+   cd simple-chat-go
    ```
 2. Jalankan backend dengan Go  
    ```sh
