@@ -39,4 +39,4 @@ Simple Chat Application adalah aplikasi web yang memungkinkan dua atau lebih pen
 - **Frontend**: HTML, JavaScript, Tailwind CSS  
 - **Backend**: Golang, WebSocket  
 - **Database**: SQLite  
-INI MERUPAKAN PROJECT PERTAMA DENGAN GOLANG
+INI MERUPAKAN PROJECT PERTAMA DENGAN GOLANG DAN MERUPAKAN TUGAS DARI MINI BOOTCAMP DARI DIBIMBING
